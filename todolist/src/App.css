@@ -1,0 +1,48 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox p {
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+.create-form {
+  margin: 20px;
+}
+
+.create-form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create-form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
